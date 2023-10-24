@@ -13,11 +13,19 @@
     <link rel="shortcut icon" href="/favicon.ico" sizes="32x32">
     <link rel="icon" href="/assets/favicon.png" sizes="any" type="image/png" >
 
+    <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ title or metadata.title }}" />
     <meta property="og:description" content="{{ description or metadata.description }}" />
-    <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ [metadata.url, page.url] | join }}" />
     <meta property="og:image" content="{{ [metadata.url, "/assets/thumbnail.jpg"] | join }}" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="jaravelascocanning.com">
+    <meta name="twitter:title" content="{{ title or metadata.title }}">
+    <meta name="twitter:description" content="{{ description or metadata.description }}">
+    <meta property="twitter:url" content="{{ [metadata.url, page.url] | join }}">
+    <meta name="twitter:image" content="{{ [metadata.url, "/assets/thumbnail.jpg"] | join }}">
+
   </head>
   <body>
     <header class="header section">
