@@ -4,6 +4,7 @@ title: Wise
 description: One account for the World's Money
 role: In-house senior brand and creative designer
 timeline: 2020-now
+date: 2020-01-01
 ---
 ![Image1](/images/wise/1.png)
 ![Image2](/images/wise/2.gif)
