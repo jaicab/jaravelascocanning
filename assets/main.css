@@ -29,13 +29,17 @@ a:hover {
 }
 
 /* Header */
+.header {
+  margin-bottom: 3em !important;
+}
+
 .header__about {
   text-transform: lowercase;
 }
 
 .header__about a {
   display: inline-block;
-  margin: 0 0 0 1em;
+  padding: 0 0.5em;
 }
 
 /* Work piece */
@@ -106,10 +110,14 @@ a:hover {
   }
 
   /* Header */
+  .header {
+    margin-bottom: 5em !important;
+  }
+
   .header__about {
     position: absolute;
     top: 1em;
-    right: 1em;
+    right: 0.5em;
     margin: 0 !important;
   }
 }
