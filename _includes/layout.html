@@ -14,9 +14,11 @@
   <body>
     <header class="header section">
       <div class="section__header">
-        <h1>Jara Velasco Canning</h1>
-        <p>Visual design and art direction
-          <br/>LDN / MAD
+        <h1>{{ metadata.title }}</h1>
+        <p>
+          {{ metadata.description }}
+          <br/>
+          {{ metadata.from }}
         </p>
       </div>
       <a href="/about" class="header__about">About</a>
