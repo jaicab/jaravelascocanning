@@ -11,19 +11,24 @@ img {
   max-width: 100%;
 }
 
+h1,
+h3 {
+  font-size: 1.75em;
+  font-weight: 600;
+}
+
+/* Work piece */
 .section {
   margin: 2em 0 7em;
 }
 
 .section h1,
 .section h3 {
-  font-size: 28px;
-  font-weight: 600;
   margin: 0;
 }
 
 .section__header {
-  max-width: 34em;
+  max-width: 28em;
   margin: 0 auto;
 }
 
@@ -32,6 +37,7 @@ img {
   line-height: 1.2;
 }
 
+/* Image collection */
 .collection p {
   margin: 0;
 }
@@ -44,17 +50,17 @@ img {
 }
 
 @media all and (min-width: 30em) {
+  body {
+    font-size: 1.25em;
+  }
+
+  h3,
+  h1{
+    font-size: 1.9em;
+  }
+
   .section {
     margin: 1em 0 5em;
-  }
-
-  .section h3,
-  .section h1{
-    font-size: 38px;
-  }
-
-  .section p {
-    font-size: 20px;
   }
 
   .collection img {
