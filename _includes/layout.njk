@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
 
     <title>{{ title or metadata.title }} | {{ metadata.description }}</title>
-    <meta name="description" property="og:description" content="{{ description or metadata.description }}" />
+    <meta name="description" content="{{ description or metadata.description }}" />
 
     <link rel="stylesheet" type="text/css" href="/assets/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,9 +14,10 @@
     <link rel="icon" href="/assets/favicon.png" sizes="any" type="image/png" >
 
     <meta property="og:title" content="{{ title or metadata.title }}" />
+    <meta property="og:description" content="{{ description or metadata.description }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ metadata.url }}" />
-    <meta property="og:image" content="{{ [metadata.url, "/assets/thumbnail.jpeg"] | join }}" />
+    <meta property="og:url" content="{{ [metadata.url, page.url] | join }}" />
+    <meta property="og:image" content="{{ [metadata.url, "/assets/thumbnail.jpg"] | join }}" />
   </head>
   <body>
     <header class="header section">
