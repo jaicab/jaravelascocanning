@@ -26,6 +26,11 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Header */
+.header__about {
+  text-transform: lowercase;
+}
+
 /* Work piece */
 .section {
   margin: 2em 0 7em;
@@ -63,6 +68,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   margin: 2em 1em;
+  text-transform: lowercase;
 }
 
 .footer__copyright {
@@ -91,4 +97,12 @@ a:hover {
   .footer__copyright {
     display: block;
   }
+
+  /* Header */
+  .header__about {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+  }
+
 }
