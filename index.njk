@@ -4,7 +4,7 @@ title: Jara Velasco Canning
 description: Make your website!
 ---
 
-  {%- for post in collections.work -%}
+  {%- for post in collections.work | reverse -%}
     <section class="section">
       <div class="section__header">
         <h3>{{ post.data.title }}</h3>
@@ -19,21 +19,3 @@ description: Make your website!
     </section>
   {%- endfor -%}
   
-   <section class="section">
-    <div class="section__header">
-      <h3>Cubania Travel</h3>
-      <p>Independent travel agency organising unforgettable cycling and active holidays in Cuba.
-      </p>
-    </div>
-    <div class="collection">
-      <img srcset="https://d2kq0urxkarztv.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/image-fdde443b-7bf8-47fe-9d82-d73ce5713f81.png?w=830&amp;e=webp&amp;nll=true&amp;cX=0&amp;cY=244&amp;cW=909&amp;cH=974 2x, https://d2kq0urxkarztv.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/image-fdde443b-7bf8-47fe-9d82-d73ce5713f81.png?e=webp&amp;nll=true&amp;cX=0&amp;cY=244&amp;cW=909&amp;cH=974 3x" src="https://d2kq0urxkarztv.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/image-fdde443b-7bf8-47fe-9d82-d73ce5713f81.png?w=830&amp;e=webp&amp;nll=true&amp;cX=0&amp;cY=244&amp;cW=909&amp;cH=974" class="viewable saveable" style="opacity: 1;">
-      <img class="saveable viewable" srcset="" src="https://d3n32ilufxuvd1.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/Image-f67c2673-4bb1-4cc6-a051-b62964f4c00b.gif" style="opacity: 1;" url="https://d3n32ilufxuvd1.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/Image-f67c2673-4bb1-4cc6-a051-b62964f4c00b.gif">
-      <img srcset="https://d2kq0urxkarztv.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/image-58774301-1b1a-408f-b23d-ec433a924164.jpg?w=830&amp;e=webp&amp;cX=281&amp;cY=0&amp;cW=1486&amp;cH=1586 2x, https://d2kq0urxkarztv.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/image-58774301-1b1a-408f-b23d-ec433a924164.jpg?w=1245&amp;e=webp&amp;cX=281&amp;cY=0&amp;cW=1486&amp;cH=1586 3x" src="https://d2kq0urxkarztv.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/image-58774301-1b1a-408f-b23d-ec433a924164.jpg?w=830&amp;e=webp&amp;cX=281&amp;cY=0&amp;cW=1486&amp;cH=1586" class="viewable saveable" style="opacity: 1;">
-      <img srcset="https://d2kq0urxkarztv.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/image-912267a0-fbbd-4ed2-a424-cfc1079b88a0.png?w=1447&amp;e=webp&amp;nll=true&amp;cX=0&amp;cY=4&amp;cW=1575&amp;cH=968 2x, https://d2kq0urxkarztv.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/image-912267a0-fbbd-4ed2-a424-cfc1079b88a0.png?e=webp&amp;nll=true&amp;cX=0&amp;cY=4&amp;cW=1575&amp;cH=968 3x" src="https://d2kq0urxkarztv.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/image-912267a0-fbbd-4ed2-a424-cfc1079b88a0.png?w=1447&amp;e=webp&amp;nll=true&amp;cX=0&amp;cY=4&amp;cW=1575&amp;cH=968" class="viewable saveable" style="opacity: 1;">
-      <img class="saveable viewable" srcset="" src="https://d3n32ilufxuvd1.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/Image-9b3ef2a4-37a6-4141-8611-f61ec215b81a.gif" style="opacity: 1;" url="https://d3n32ilufxuvd1.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/Image-9b3ef2a4-37a6-4141-8611-f61ec215b81a.gif">
-      <img class="saveable viewable" srcset="" src="https://d3n32ilufxuvd1.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/Image-9dad4729-1201-4aee-a52b-571370efef3d.gif" style="opacity: 1;" url="https://d3n32ilufxuvd1.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/Image-9dad4729-1201-4aee-a52b-571370efef3d.gif">
-      <img class="saveable viewable" srcset="" src="https://d3n32ilufxuvd1.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/Image-abdda446-5dc5-4a69-879e-4e896691bb0f.gif" style="opacity: 1;" url="https://d3n32ilufxuvd1.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/Image-abdda446-5dc5-4a69-879e-4e896691bb0f.gif">
-      <img srcset="https://d2kq0urxkarztv.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/image-a6a5d401-95cf-4173-acb1-04d9e6c32e61.png?w=1313&amp;e=webp&amp;nll=true&amp;cX=156&amp;cY=7&amp;cW=1414&amp;cH=958 2x, https://d2kq0urxkarztv.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/image-a6a5d401-95cf-4173-acb1-04d9e6c32e61.png?e=webp&amp;nll=true&amp;cX=156&amp;cY=7&amp;cW=1414&amp;cH=958 3x" src="https://d2kq0urxkarztv.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/image-a6a5d401-95cf-4173-acb1-04d9e6c32e61.png?w=1313&amp;e=webp&amp;nll=true&amp;cX=156&amp;cY=7&amp;cW=1414&amp;cH=958" class="viewable saveable" style="opacity: 1;">
-      <img srcset="https://d2kq0urxkarztv.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/image-1dca7a18-7e84-446a-8fce-6cea9f8e778d.png?w=1086&amp;e=webp&amp;nll=true&amp;cX=46&amp;cY=0&amp;cW=1791&amp;cH=1461 2x, https://d2kq0urxkarztv.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/image-1dca7a18-7e84-446a-8fce-6cea9f8e778d.png?w=1629&amp;e=webp&amp;nll=true&amp;cX=46&amp;cY=0&amp;cW=1791&amp;cH=1461 3x" src="https://d2kq0urxkarztv.cloudfront.net/6502bb6b59f17668d4c6f000/4407067/image-1dca7a18-7e84-446a-8fce-6cea9f8e778d.png?w=1086&amp;e=webp&amp;nll=true&amp;cX=46&amp;cY=0&amp;cW=1791&amp;cH=1461" class="viewable saveable" style="opacity: 1;">
-    </div>
-  </section>
