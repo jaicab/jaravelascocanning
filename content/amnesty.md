@@ -2,7 +2,7 @@
 title: Amnesty International
 date: 2018-01-01 00:00:00 Z
 tags: work
-description: Write for Rights, an annual campaign that transforms the lives of people
+description: Write for Rights, an monthly campaign that transforms the lives of people
   whose rights have been wronged.
 ---
 
