@@ -4,27 +4,20 @@ title: Jara Velasco Canning
 description: Make your website!
 ---
 
-  <section class="section">
-    <div class="section__header">
-      <h3>Wise</h3>
-      <p>One account for the World's Money
-        <br/>
-        In-house senior brand and creative designer
-        <br/>2020-now
-      </p>
-    </div>
-    <div class="collection">
-      <img src="/images/wise1.png" alt="">
-      <img src="/images/wise2.gif" alt="">
-      <img src="/images/wise3.jpg" alt="">
-      <img src="/images/wise4.png" alt="">
-      <img src="/images/wise5.gif" alt="">
-      <img src="/images/wise6.gif" alt="">
-      <img src="/images/wise7.gif" alt="">
-      <img src="/images/wise8.png" alt="">
-      <img src="/images/wise9.png" alt="">
-    </div>
-  </section>
+  {%- for post in collections.work -%}
+    <section class="section">
+      <div class="section__header">
+        <h3>{{ post.data.title }}</h3>
+        <p>{{ post.data.description }}
+          <br/>{{ post.data.role }}
+          <br/>{{ post.data.timeline }}
+        </p>
+      </div>
+      <div class="collection">
+        {{ post.content | safe }}
+      </div>
+    </section>
+  {%- endfor -%}
   
    <section class="section">
     <div class="section__header">

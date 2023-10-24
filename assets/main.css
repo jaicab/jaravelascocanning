@@ -33,6 +33,10 @@ img {
   line-height: 1.2;
 }
 
+.collection p {
+  margin: 0;
+}
+
 .collection img {
   width: auto;
   height: 26.5vw;
