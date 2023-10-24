@@ -2,18 +2,21 @@
 layout: layout.njk
 ---
 
-  {%- for post in collections.work | reverse -%}
-    <section class="section">
-      <div class="section__header">
-        <h3>{{ post.data.title }}</h3>
-        <p>{{ post.data.description }}
-          {%- if post.data.role -%}<br/>{%- endif -%}{{ post.data.role }}
-          {%- if post.data.timeline -%}<br/>{%- endif -%}{{ post.data.timeline }}
-        </p>
-      </div>
-      <div class="collection">
-        {{ post.content | safe }}
-      </div>
-    </section>
-  {%- endfor -%}
-  
+<div class="header__about">
+  <a href="/about">About</a>
+</div>
+
+{%- for post in collections.work | reverse -%}
+  <section class="section">
+    <div class="section__header">
+      <h3>{{ post.data.title }}</h3>
+      <p>{{ post.data.description }}
+        {%- if post.data.role -%}<br/>{%- endif -%}{{ post.data.role }}
+        {%- if post.data.timeline -%}<br/>{%- endif -%}{{ post.data.timeline }}
+      </p>
+    </div>
+    <div class="collection">
+      {{ post.content | safe }}
+    </div>
+  </section>
+{%- endfor -%}
