@@ -1,9 +1,10 @@
 ---
-tags: work
 title: Serious.Business
+date: 2017-01-01 00:00:00 Z
+tags: work
 description: A brand and digital design agency helping startups become market leaders.
-date: 2017-01-01
 ---
+
 ![Image1](/images/serious/1.gif)
 ![Image2](/images/serious/2.gif)
 ![Image3](/images/serious/3.gif)

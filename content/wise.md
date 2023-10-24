@@ -1,11 +1,12 @@
 ---
-tags: work
 title: Wise
+date: 2020-01-01 00:00:00 Z
+tags: work
 description: One account for the World's Money
 role: In-house senior brand and creative designer
 timeline: 2020-now
-date: 2020-01-01
 ---
+
 ![Image1](/images/wise/1.png)
 ![Image2](/images/wise/2.gif)
 ![Image3](/images/wise/3.jpg)
