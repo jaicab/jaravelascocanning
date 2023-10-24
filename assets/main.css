@@ -1,10 +1,10 @@
 body {
-  text-align: center;
+  margin: 0;
+  padding: 0;
   font-family: 'Inter', sans-serif;
   font-weight: 300;
   letter-spacing: -0.05em;
-  margin: 0;
-  padding: 0;
+  text-align: center;
 }
 
 img {
@@ -12,7 +12,14 @@ img {
 }
 
 .section {
-  margin: 1em 0 5em;
+  margin: 2em 0 7em;
+}
+
+.section h1,
+.section h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
 }
 
 .section__header {
@@ -20,15 +27,7 @@ img {
   margin: 0 auto;
 }
 
-.section h3,
-.section h1{
-  font-weight: 600;
-  font-size: 38px;
-  margin: 0;
-}
-
 .section p {
-  font-size: 20px;
   margin: 0.25em 1em 1em;
   line-height: 1.2;
 }
@@ -39,28 +38,27 @@ img {
 
 .collection img {
   width: auto;
-  height: 26.5vw;
+  height: 31vw;
   margin: 0.25vw;
   border-radius: 1.5vw;
 }
 
-@media all and (max-width: 30em) {
+@media all and (min-width: 30em) {
   .section {
-    margin: 2em 0 7em;
+    margin: 1em 0 5em;
   }
-  
+
+  .section h3,
+  .section h1{
+    font-size: 38px;
+  }
+
   .section p {
-    font-size: 16px;
+    font-size: 20px;
   }
-  
-  .section h1,
-  .section h3 {
-    font-size: 28px;
-  }
-  
+
   .collection img {
-    /*width: 90vw;
-    height: auto;*/
-    height: 31vw;
+    height: 26.5vw;
   }
+
 }

@@ -9,8 +9,8 @@ description: Make your website!
       <div class="section__header">
         <h3>{{ post.data.title }}</h3>
         <p>{{ post.data.description }}
-          <br/>{{ post.data.role }}
-          <br/>{{ post.data.timeline }}
+          {%- if post.data.role -%}<br/>{%- endif -%}{{ post.data.role }}
+          {%- if post.data.timeline -%}<br/>{%- endif -%}{{ post.data.timeline }}
         </p>
       </div>
       <div class="collection">
