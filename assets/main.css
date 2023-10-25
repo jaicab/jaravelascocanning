@@ -32,7 +32,7 @@ a:hover {
 
 /* Header */
 .header {
-  margin-bottom: 3em !important;
+  margin-bottom: 2em !important;
 }
 
 .header__about {
@@ -52,11 +52,6 @@ a:hover {
 .section h1,
 .section h3 {
   margin: 0;
-}
-
-.section__header {
-  max-width: 28em;
-  margin: 0 auto;
 }
 
 .section p {
@@ -89,7 +84,7 @@ a:hover {
   opacity: 0.4;
 }
 
-@media all and (min-width: 40em) {
+@media (min-width: 40em) {
   body {
     font-size: 1.25em;
   }
@@ -101,6 +96,11 @@ a:hover {
 
   .section {
     margin: 1em 0 5em;
+  }
+
+  .section__header {
+    max-width: 28em;
+    margin: 0 auto;
   }
 
   .collection img {
